@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from langchain.agents import AgentType
 from langchain_google_genai import GoogleGenerativeAI
 import re
-GOOGLE_API_KEY = "AIzaSyCMnwKEo7urS4tv-xfsYl8ItitrnB_S6kA"
+GOOGLE_API_KEY = "AIzaSyddCMnwKEo7urS4tv-xfsYl08ItitrnB_S6kA"
 genai.configure(api_key=GOOGLE_API_KEY)
 import os
 load_dotenv()
